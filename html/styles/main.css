@@ -1,0 +1,12 @@
+body {
+    background-color: aliceblue;
+    font: 14px Tahoma;
+    color: #333333;
+    padding: 15px;
+    margin: 0 auto;
+    width: 1000px;
+}
+#myImage {
+    float: right;
+    margin: 20px 0 20px 50px;
+}

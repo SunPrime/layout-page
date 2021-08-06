@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+</head>
+<body>
+<form method="post" name="form1">
+
+    <fieldset>
+        <legend>Personal data</legend>
+        <p>
+            <label>
+                Input your name:
+                <input type="text" name="name" size="30" maxlength="12">
+            </label>
+        </p>
+        <p>
+            <label>
+                Input your password:
+                <input type="password" name="password" size="30" maxlength="12">
+            </label>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Questions</legend>
+    <p>Do you like time?</p>
+    <p>
+        <label>
+            Yes
+            <input type="radio" name="time" value="yes" checked>
+        </label>
+        <label>
+            No
+            <input type="radio" name="time" value="no">
+        </label>
+    </p>
+    <p>
+        Lovely instruments?
+    </p>
+    <p>
+        <label>
+            Dairy
+            <input type="checkbox" name="dairy">
+        </label>
+        <label>
+            Time
+            <input type="checkbox" name="time">
+        </label>
+        <label>
+            Own
+            <input type="checkbox" name="own">
+        </label>
+    </p>
+    <p>Sleep time?</p>
+    <p>
+        <label>
+            Time:
+            <select name="sleep">
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option selected>8</option>
+                <option>8+</option>
+            </select>
+        </label>
+    </p>
+    </fieldset>
+    <p><label for="text">Comments:</label></p>
+    <p><textarea id="text" name="text" cols="30" rows="6"></textarea></p>
+    <p>
+        <input type="reset" name="reset" value="Reset">
+        <input type="submit" name="submit" value="Send">
+    </p>
+    <p><input type="button" name="button" value="Stop"></p>
+</form>
+</body>
+</html>

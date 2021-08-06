@@ -1,0 +1,43 @@
+#wrapper {
+    width: 800px;
+    outline: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 77px;
+    background-color: #f8ac18;
+    margin-bottom: 12px;
+}
+
+#sidebarL {
+    background-color: #ebebeb;
+    margin-bottom: 12px;
+    width: 150px;
+    float: left;
+}
+
+#sidebarR {
+    background-color: #ebebeb;
+    margin-bottom: 12px;
+    width: 150px;
+    float: right;
+}
+
+#content {
+    width: 480px;
+    background-color: #c5161d;
+    margin: 0 auto 12px auto;
+}
+
+#footer {
+    height: 77px;
+    background-color: #111;
+    margin-bottom: 12px;
+    color: #ebebeb;
+}
+
+.clear {
+    clear: both;
+}
